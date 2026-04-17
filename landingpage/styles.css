@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #111;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Services */
+.services {
+  padding: 60px;
+  text-align: center;
+}
+
+.service-box {
+  display: inline-block;
+  width: 30%;
+  margin: 15px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+/* About */
+.about {
+  padding: 50px;
+  text-align: center;
+  background: #fafafa;
+}
+
+/* CTA */
+.cta {
+  padding: 60px;
+  text-align: center;
+  background: #2a5298;
+  color: white;
+}
+
+.cta button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-box {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav {
+    margin-top: 10px;
+  }
+}
